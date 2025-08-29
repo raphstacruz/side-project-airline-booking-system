@@ -1,10 +1,15 @@
 # Technical Specifications Document
 
 ## 1. Title Page
-- **Project Name**: 
-- **Version**: 
-- **Date**: 
-- **Author(s)**: 
+- **Project Name**: Airline Booking System
+- **Version**: 0.1.0 (Draft)
+- **Date**: 2025-08-29
+- **Author(s)**:
+  - Raphael Paul Sta. Cruz
+  - Fil Sammy Mejica Abawag
+  - Jonn Ronan Lucas
+  - Carl Joe Dolino Inocentes
+  - Xyzhee Go Montero
 
 ## 2. Table of Contents
 1. [Title Page](#1-title-page)  
@@ -95,5 +100,6 @@ The Airline Booking System simplifies and automates flight reservations. Key fea
 - **References:** Links to design resources, APIs, or airline data sources.  
 - **Diagrams:** ERD, flowcharts, and system architecture diagrams (if any).  
 - **Version History:** Document version updates and change logs.  
+
 
 
