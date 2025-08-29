@@ -40,7 +40,7 @@
 
 ## 5. Visual Mockup Reference
 A visual design mockup has been created in Figma to illustrate the UI and user flow.  
-**Figma Link:** [Insert your Figma link here]  
+**Figma Link:** https://www.figma.com/design/SzaMYCbWyyuLVhagLi4e59/Side-Project--Airline-Booking-Application?node-id=0-1&t=NFgnY95TOPvD2MJ0-1
 
 ## 6. Features
 The Airline Booking System simplifies and automates flight reservations. Key features include:  
@@ -100,6 +100,7 @@ The Airline Booking System simplifies and automates flight reservations. Key fea
 - **References:** Links to design resources, APIs, or airline data sources.  
 - **Diagrams:** ERD, flowcharts, and system architecture diagrams (if any).  
 - **Version History:** Document version updates and change logs.  
+
 
 
 
