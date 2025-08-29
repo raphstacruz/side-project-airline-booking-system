@@ -7,16 +7,14 @@
 - **Author(s)**: 
 
 ## 2. Table of Contents
-1. [Introduction](#3-introduction)
-2. [Overall Description](#4-overall-description)
-3. [Visual Mockup Reference](#5-visual-mockup-reference)
-4. [Features](#6-features)
-5. [Functional Requirements](#7-functional-requirements)
-6. [Non-Functional Requirements](#8-non-functional-requirements)
-7. [Data Requirements](#9-data-requirements)
-8. [External Interface Requirements](#10-external-interface-requirements)
-9. [Glossary](#11-glossary)
-10. [Appendices](#12-appendices)
+1. [Features](#features)  
+2. [Functional Requirements](#functional-requirements)  
+3. [Non-Functional Requirements](#non-functional-requirements)  
+4. [Visual Mockup](#visual-mockup)  
+5. [Data Requirements](#data-requirements)  
+6. [External Interface Requirements](#external-interface-requirements)  
+7. [Glossary](#glossary)  
+8. [Appendices](#appendices)  
 
 ## 3. Introduction
 - **Purpose**: Explain the purpose of the application.
@@ -32,24 +30,27 @@
 - **Assumptions and Dependencies**: List any assumptions made and dependencies on other projects or technologies.
 
 ## 5. Visual Mockup Reference
-- **Link or Screenshot**: Provide a link to the visual mockup or include a screenshot.
+A visual design mockup has been created in Figma to illustrate the UI and user flow.  
+**Figma Link:** [Insert your Figma link here]  
 
 ## 6. Features
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- (Add more features as necessary)
+The Airline Booking System simplifies and automates flight reservations. Key features include:  
+
+- **Flight Search:** Search for available flights by origin, destination, and date.  
+- **Booking Management:** Book, modify, or cancel flights.  
+- **User Authentication:** Secure login, registration, and profile management.  
+- **Payment Processing:** Integration with online payment gateways.  
+- **Notifications:** Email and SMS alerts for booking confirmations or changes.  
+- **Admin Panel:** Manage flights, schedules, bookings, and user accounts.  
 
 ## 7. Functional Requirements
-### Use Cases
-- **Use Case 1**:
-  - **Title**: 
-  - **Description**: 
-  - **Actors**: 
-  - **Preconditions**: 
-  - **Postconditions**: 
-  - **Main Flow**: 
-  - **Alternate Flows**: 
+1. Users can search for flights using filters like origin, destination, date, and seat class.  
+2. Users can create accounts and log in securely.  
+3. Users can book flights and receive a booking confirmation.  
+4. Users can view, modify, or cancel their bookings.  
+5. Admins can add, update, or remove flights and manage schedules.  
+6. Payment system integration for secure transactions.  
+7. Send notifications via email/SMS for booking events.  
 
 ### System Features
 - **Feature 1**:
@@ -61,28 +62,33 @@
   - **Error Handling**: 
 
 ## 8. Non-Functional Requirements
-- **Performance**: Describe performance requirements.
-- **Security**: Outline security needs.
-- **Usability**: Detail user interface and experience considerations.
-- **Reliability**: Define reliability and availability requirements.
-- **Supportability**: Specify maintenance and support requirements.
+- **Performance:** Handle at least 1,000 concurrent users.  
+- **Availability:** 99.9% uptime for critical services.  
+- **Security:** Encrypt sensitive data and comply with GDPR.  
+- **Usability:** Intuitive UI for all user groups.  
+- **Scalability:** Support future expansion for multiple airlines/routes.  
+- **Reliability:** Ensure accurate booking and payment processing.  
 
 ## 9. Data Requirements
-- **Data Models**: Include simple diagrams if possible.
-- **Database Requirements**: Describe tables and relationships.
-- **Data Storage and Retrieval**: Explain how data will be stored and accessed.
-- **ERD**: Add the ERD for the database models based on Specifications.
+- **User Data:** Name, email, contact number, payment information.  
+- **Flight Data:** Flight number, airline, origin, destination, schedule, seat availability.  
+- **Booking Data:** Booking ID, user ID, flight ID, booking status, payment status.  
+- **Payment Data:** Transaction ID, amount, payment method, payment status.  
 
 ## 10. External Interface Requirements
-- **User Interfaces**: Provide sketches or descriptions of the user interface.
-- **API Interfaces**: Briefly describe any APIs.
-- **Hardware Interfaces**: Mention any required hardware interactions.
-- **Software Interfaces**: Note any software interactions.
+- **Payment Gateway API:** For processing online payments.  
+- **Email/SMS API:** For sending notifications.  
+- **External Flight Data API (optional):** For real-time flight availability and updates.  
 
 ## 11. Glossary
-- **Term 1**: Definition
-- **Term 2**: Definition
+- **Booking:** Reservation of a flight by a user.  
+- **Passenger:** User who books a flight.  
+- **Admin:** User with privileges to manage flights and bookings.  
+- **Flight Schedule:** Time and date of a flight.  
+- **Transaction:** Payment activity associated with a booking.  
 
 ## 12. Appendices
-- **Supporting Information**: Add any additional information here.
-- **Revision History**: Record any changes made to the document with dates and descriptions.
+- **References:** Links to design resources, APIs, or airline data sources.  
+- **Diagrams:** ERD, flowcharts, and system architecture diagrams (if any).  
+- **Version History:** Document version updates and change logs.  
+
