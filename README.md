@@ -7,14 +7,18 @@
 - **Author(s)**: 
 
 ## 2. Table of Contents
-1. [Features](#features)  
-2. [Functional Requirements](#functional-requirements)  
-3. [Non-Functional Requirements](#non-functional-requirements)  
-4. [Visual Mockup](#visual-mockup)  
-5. [Data Requirements](#data-requirements)  
-6. [External Interface Requirements](#external-interface-requirements)  
-7. [Glossary](#glossary)  
-8. [Appendices](#appendices)  
+1. [Title Page](#1-title-page)  
+2. [Table of Contents](#2-table-of-contents)  
+3. [Introduction](#3-introduction)  
+4. [Overall Description](#4-overall-description)  
+5. [Visual Mockup Reference](#5-visual-mockup-reference)  
+6. [Features](#6-features)  
+7. [Functional Requirements](#7-functional-requirements)  
+8. [Non-Functional Requirements](#8-non-functional-requirements)  
+9. [Data Requirements](#9-data-requirements)  
+10. [External Interface Requirements](#10-external-interface-requirements)  
+11. [Glossary](#11-glossary)  
+12. [Appendices](#12-appendices)
 
 ## 3. Introduction
 - **Purpose**: Explain the purpose of the application.
@@ -91,4 +95,5 @@ The Airline Booking System simplifies and automates flight reservations. Key fea
 - **References:** Links to design resources, APIs, or airline data sources.  
 - **Diagrams:** ERD, flowcharts, and system architecture diagrams (if any).  
 - **Version History:** Document version updates and change logs.  
+
 
