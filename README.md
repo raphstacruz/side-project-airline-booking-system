@@ -11,8 +11,6 @@
   - Carl Joe Dolino Inocentes  
   - Xyzhee Go Montero  
 
----
-
 ## 2. Table of Contents
 1. [Title Page](#1-title-page)  
 2. [Table of Contents](#2-table-of-contents)  
@@ -26,8 +24,6 @@
 10. [External Interface Requirements](#10-external-interface-requirements)  
 11. [Glossary](#11-glossary)  
 12. [Appendices](#12-appendices)  
-
----
 
 ## 3. Introduction
 - **Purpose**  
@@ -45,8 +41,6 @@
   - Airline booking standards (IATA guidelines)  
   - Figma UI mockups  
   - Payment gateway API documentation  
-
----
 
 ## 4. Overall Description
 - **Product Perspective**  
@@ -74,13 +68,9 @@
   - Depends on third-party APIs for payments and notifications  
   - Assumes airline staff will manage schedules accurately  
 
----
-
 ## 5. Visual Mockup Reference
 A visual design mockup has been created in Figma to illustrate the UI and user flow.  
 **Figma Link:** [View Figma Mockups](https://www.figma.com/design/SzaMYCbWyyuLVhagLi4e59/Side-Project--Airline-Booking-Application?node-id=0-1&t=NFgnY95TOPvD2MJ0-1)  
-
----
 
 ## 6. Features
 The Airline Booking System simplifies and automates flight reservations.  
@@ -91,8 +81,6 @@ The Airline Booking System simplifies and automates flight reservations.
 - **Payment Processing**  
 - **Notifications**  
 - **Admin Panel**  
-
----
 
 ## 7. Functional Requirements
 
@@ -114,8 +102,6 @@ The Airline Booking System simplifies and automates flight reservations.
   - **Outputs**: List of available flights  
   - **Error Handling**: Show “No flights found” message if none match criteria  
 
----
-
 ## 8. Non-Functional Requirements
 - **Performance:** Support 1,000 concurrent users.  
 - **Availability:** 99.9% uptime.  
@@ -124,22 +110,16 @@ The Airline Booking System simplifies and automates flight reservations.
 - **Scalability:** Modular backend to support more airlines.  
 - **Reliability:** High accuracy in booking and payment status updates.  
 
----
-
 ## 9. Data Requirements
 - **User Data**: Name, email, phone, payment info  
 - **Flight Data**: Flight number, airline, origin, destination, date/time, seat availability  
 - **Booking Data**: Booking ID, user ID, flight ID, status, timestamp  
 - **Payment Data**: Transaction ID, amount, method, status  
 
----
-
 ## 10. External Interface Requirements
 - **Payment Gateway API**: e.g., Stripe, PayPal  
 - **Email/SMS API**: e.g., Twilio, SendGrid  
 - **Optional Flight Data API**: For real-time airline schedules  
-
----
 
 ## 11. Glossary
 - **Booking**: A confirmed reservation.  
@@ -147,16 +127,10 @@ The Airline Booking System simplifies and automates flight reservations.
 - **Admin**: Airline staff managing the system.  
 - **Transaction**: Payment process linked to booking.  
 
----
-
 ## 12. Appendices
-- **References**  
-  - IATA airline data documentation  
-  - API references for Stripe/PayPal, Twilio/SendGrid  
-
-- **Diagrams**  
-  - ERD: showing User, Flight, Booking, Payment relationships  
-  - System architecture diagram  
+- **References:** Links to design resources, APIs, or airline data sources.
+- **Diagrams:** ERD, flowcharts, and system architecture diagrams (if any).
 
 - **Version History**  
   - 0.1.0 – Initial draft  
+
