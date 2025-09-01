@@ -128,8 +128,11 @@ The Airline Booking System simplifies and automates flight reservations.
 - **Transaction**: Payment process linked to booking.  
 
 ## 12. Appendices
-- **References:** Links to design resources, APIs, or airline data sources.
-- **Diagrams:** ERD, flowcharts, and system architecture diagrams (if any).
+- **References:** Links to design resources, APIs, airline data sources, and code repository.
+- [GitHub Repository](https://github.com/raphstacruz/side-project-airline-booking-system)
+- **Diagrams:**
+  - **ERD**
+  ![image](./docs/ERD.png)
 
 - **Version History**  
   - 0.1.0 – Initial draft  
