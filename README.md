@@ -80,7 +80,13 @@ The Airline Booking System simplifies and automates flight reservations.
 - **User Authentication**  
 - **Payment Processing**  
 - **Notifications**  
-- **Admin Panel**  
+- **Admin Panel** 
+- **AI Chatbot (New)**  
+  - Finds the **cheapest flights** available on specific dates.  
+  - Answers queries such as:  
+    - Accepted payment methods  
+    - Booking status inquiries  
+  - Provides quick support without needing human intervention. 
 
 ## 7. Functional Requirements
 
@@ -100,7 +106,16 @@ The Airline Booking System simplifies and automates flight reservations.
   - **Inputs**: User search query (origin, destination, date)  
   - **Processing**: Query flights database or external API  
   - **Outputs**: List of available flights  
-  - **Error Handling**: Show “No flights found” message if none match criteria  
+  - **Error Handling**: Show “No flights found” message if none match criteria 
+
+- **Feature 2: AI Chatbot**
+  - **Description**: An AI-powered chatbot assists users in finding flights and answering queries.
+  - **Priority**: Medium
+  - **Inputs**: User text queries (e.g., "Find me the cheapest flight to Manila on Sept 20")
+  - **Processing:**  
+    - Searches flight database for cheapest available options.  
+    - Returns predefined answers for FAQs.
+  - **Outputs:** Instant chatbot response.
 
 ## 8. Non-Functional Requirements
 - **Performance:** Support 1,000 concurrent users.  
@@ -136,4 +151,3 @@ The Airline Booking System simplifies and automates flight reservations.
 
 - **Version History**  
   - 0.1.0 – Initial draft  
-
